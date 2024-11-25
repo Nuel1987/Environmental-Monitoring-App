@@ -1,0 +1,137 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .nav-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .nav-buttons button:hover {
+    background-color: #0056b3;
+  }
+  .chart-container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  /* Loading Spinner */
+  .loading-spinner {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    color: #007BFF;
+  }
+  
+  /* Error Message */
+  .error {
+    color: red;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid red;
+    background-color: #f8d7da;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-mode button {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .dark-mode .error {
+    background-color: #4c2c2c;
+    color: #ffffff;
+  }
+  
+  /* Chart Container */
+  canvas {
+    display: block;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  #chart-container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  #controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #controls input, #controls select, #controls button {
+    margin: 0 10px;
+  }
+  
+  #controls button {
+    padding: 10px;
+  }
+  
+  #loading {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #controls {
+      flex-direction: column;
+    }
+    #controls button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
